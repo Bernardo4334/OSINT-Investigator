@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
 
         content = new LinearLayout(this);
         content.setOrientation(LinearLayout.VERTICAL);
-        content.setPadding(28, 36, 28, 36);
+        content.setPadding(28, 64, 28, 36);
 
         scroll.addView(content);
         setContentView(scroll);
